@@ -106,7 +106,16 @@ export const Main = styled.ul`
             &:hover {
                 opacity: .8;
             }
+
+            @media(max-width: 768px) {
+                position: absolute;
+                right: 45px;
+            }
         }
     }
+
+    @media(max-width: 450px) {
+        font-size: 20px;
+    }    
     
 `;
